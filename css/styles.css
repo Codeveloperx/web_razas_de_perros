@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -30,7 +31,7 @@
 }
 .botones{
     padding: 5px 10px;
-    border-radius: 30px;
+    border-radius: 8px;
     color: white;
     font-weight: bolder;
     cursor: pointer;
@@ -74,4 +75,53 @@
 }
 .buscar:focus-within{
     border: 1px solid blue;
+}
+
+.contenedor_img{
+    width: 240px;
+    height: 300px;
+    display: flex;
+}
+
+.contenedor_img > img{
+    object-fit:cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.seccion_perros{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.seccion_perros > li:hover{
+    transform: scale(1.02);
+}
+
+.seccion_perros > li{
+    background-color: rgb(78, 78, 90);
+    border-radius: 10px;
+
+}
+
+span{
+    color: white;
+    font-size:20px;
+    padding: 10px;
+    font-weight: bold;
+    ;
+
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.detalles{
+    margin: 15px 10px 8px 10px;
+    color: white;
+    font-weight: bold;
 }
